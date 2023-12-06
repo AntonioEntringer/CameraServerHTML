@@ -5,7 +5,7 @@ Metodo simples para acesso das cameras do laboratório - LabSea
 ### Os códigos para composição do Docker estão no diretório "SourceFiles". Para executar o Docker, utilize o seguinte comando:
 
 ```bash
-- docker run -d --network host camerasserver:latest
+1. docker run -d --network host camerasserver:latest
 ```
 
 # Após a execução, os links para acessar as câmeras serão:
@@ -24,7 +24,8 @@ Metodo simples para acesso das cameras do laboratório - LabSea
 # Aplique esses arquivos usando o comando:
 
 ```bash
-kubectl apply -f cameraserverdeploy.yaml -f cameraserver.yaml
+1. kubectl apply -f cameraserverdeploy.yaml
+2. kubectl apply -f cameraserver.yaml
 ```
 
 # Os links para acessar as câmeras no Kubernetes serão:
