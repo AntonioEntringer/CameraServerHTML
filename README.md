@@ -10,10 +10,10 @@ Metodo simples para acesso das cameras do laboratório - LabSea
 
 # Após a execução, os links para acessar as câmeras serão:
 
-Camera 1: <ip_da_maquina_host>:5001
-Camera 2: <ip_da_maquina_host>:5002
-Camera 3: <ip_da_maquina_host>:5003
-Camera 4: <ip_da_maquina_host>:5004
+- Camera 1: <ip_da_maquina_host>:5001
+- Camera 2: <ip_da_maquina_host>:5002
+- Camera 3: <ip_da_maquina_host>:5003
+- Camera 4: <ip_da_maquina_host>:5004
 
 **Kubernetes**
 ### Para utilizar no Kubernetes, use os seguintes lançadores disponíveis no diretório "k8s":
@@ -29,10 +29,10 @@ kubectl apply -f cameraserverdeploy.yaml -f cameraserver.yaml
 
 # Os links para acessar as câmeras no Kubernetes serão:
 
-Camera 1: <ip_da_maquina_host>:31001
-Camera 2: <ip_da_maquina_host>:31002
-Camera 3: <ip_da_maquina_host>:31003
-Camera 4: <ip_da_maquina_host>:31004
+- Camera 1: <ip_da_maquina_host>:31001
+- Camera 2: <ip_da_maquina_host>:31002
+- Camera 3: <ip_da_maquina_host>:31003
+- Camera 4: <ip_da_maquina_host>:31004
 
 **Contato**
 *Para mais informações, entre em contato através do e-mail: marcosmutzcontato@gmail.com*
